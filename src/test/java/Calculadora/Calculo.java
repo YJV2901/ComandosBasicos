@@ -6,7 +6,7 @@ public class Calculo {
 	public static void main(String[] args) {
 		Operaçoes operaçoes = new Operaçoes();
 		
-		operaçoes.soma(1, 2, 3);
+		operaçoes.soma(1, 2);
 		
 		operaçoes.divisão(20, 1);
 		
