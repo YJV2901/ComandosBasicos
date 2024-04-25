@@ -1,11 +1,13 @@
 package IF;
 
+import java.util.Scanner;
+
 public class AprendendoIF {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
+		  
 		// < menor que
 		// > maior que
 		// = igual 
@@ -15,10 +17,14 @@ public class AprendendoIF {
 		// != diferente ou igual
 		// &
 		
-		System.out.println("Bem vindo ao Banco Champions");
+		Scanner scanner = new Scanner (System.in);
 		
-		int boleto = 500;
-		int saldo = 1000;
+		System.out.println("Bem vindo ao Banco Champions");
+		System.out.println("Digite o valor do boleto a ser pago: ");
+		
+		int boleto = scanner.nextInt();
+		System.out.println("Digite o seu saldo no momento:");
+		int saldo = scanner.nextInt();
 		int limite = 200;
 		int saldoelimite = saldo + limite;
 		
